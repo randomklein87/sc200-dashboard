@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Martins SC-200 læringsforløb: progression, modulplan, baseline og næste session.">
+  <title>SC-200 · Martins learning dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%230b1420'/%3E%3Cpath d='M10 11h20v13l-10 8-10-8z' fill='%2349dfb0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="tracker.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Spring til indhold</a>
+<header><a class="brand" href="#main"><span class="mark">SC</span><span>SECURITY OPERATIONS<span class="brand-sub">Martins learning dashboard</span></span></a><span class="tag">CERTIFICATION / SC-200</span></header>
+<main id="main">
+  <section class="intro"><div><p class="eyebrow">DIT CERTIFICERINGSFORLØB</p><h1>Fra erfaring til <span>eksamensklar.</span></h1><p class="muted">Fundamentet er på plads. Nu bygger vi Microsoft SecOps-værktøjskassen.</p></div><div class="updated">SENEST OPDATERET<time id="updated"></time></div></section>
+  <section class="overview" aria-label="Samlet progression"><div class="progress-card"><div class="ring" id="ring"><strong id="percent"></strong></div><div><p class="eyebrow">SAMLET PROGRESSION</p><h2>Baseline gennemført</h2><p class="muted">Baseret på registreret tid · ikke eksamensparathed</p></div></div><div class="metric"><span>GENNEMFØRT</span><strong id="done"></strong><small>Baseline afsluttet</small></div><div class="metric"><span>TILBAGE I PLANEN</span><strong id="remaining"></strong><small id="budget"></small></div></section>
+  <section class="next"><div class="next-label"><span class="pulse"></span>NÆSTE SESSION</div><div><p class="eyebrow">MODUL 01 / DEFENDER XDR + MDE</p><h2 id="nextTitle"></h2><p>Fokus: hændelsesforløb, relevante beviser og valg af næste handling.</p></div><a class="button" href="https://chatgpt.com/c/6aba2855-819c-83eb-a746-93e9981b7f41">Fortsæt i undervisningschatten <span aria-hidden="true">↗</span></a></section>
+  <div class="columns"><section class="panel"><div class="section-heading"><div><p class="eyebrow">LÆRINGSPLAN</p><h2>Din vej til SC-200</h2></div><span class="muted">5 moduler · 23 t</span></div><div class="baseline-row"><span class="check">✓</span><div><strong>Baseline & kompetencekortlægning</strong><small>Gennemført</small></div><strong>1 / 1 t</strong></div><div id="modules"></div><p class="note">24 timer er et justerbart budget. Vi prioriterer efter demonstrerede færdigheder og dine resultater.</p></section>
+  <section class="panel"><div class="section-heading"><div><p class="eyebrow">UDGANGSPUNKT</p><h2>Dit kompetencekort</h2></div><span class="tag">BASELINE</span></div><div class="legend"><span><i class="strong"></i>Stærk</span><span><i class="medium"></i>Mellem</span><span><i class="low"></i>Lav</span></div><div id="heatmap" class="heatmap"></div><div class="focus"><p class="eyebrow">STØRSTE PRIORITET</p><h3>Sentinel + KQL</h3><p>8 timer til området med størst udviklingsbehov. Særligt Sentinel og at skrive KQL fra bunden.</p></div></section></div>
+  <section class="panel readiness"><div class="section-heading"><div><p class="eyebrow">EXAM READINESS</p><h2>Klar, når du kan demonstrere det</h2></div><span class="tag">ENDNU IKKE VURDERET</span></div><p class="muted">Foreslåede kriterier for vores forløb. De er ikke officielle beståelseskrav eller en garanti for eksamensresultatet.</p><div class="criteria" id="criteria"></div></section>
+  <footer><p><strong>Ét sted til overblik. Én chat til læring.</strong><br>Trackeren viser senest publicerede status. Efter en session opdateres data i repoet; chatten synkroniseres ikke automatisk.</p><a id="repoLink" href="https://github.com/randomklein87">Se trackerens kilde</a></footer>
+</main>
+<noscript><p>Aktivér JavaScript for at se trackerens registrerede timer og kompetencer.</p></noscript>
+</body></html>
