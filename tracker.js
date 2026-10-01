@@ -5,7 +5,7 @@ window.SC200 = {
   baselineHours: 1,
   next: 'KQL fra blankt papir · dybere endpoint/process-analyse',
   modules: [
-    {name:'Defender XDR + Defender for Endpoint', hours:4, completed:0, progressRange:[55,60], status:'Under træning · ca. 55–60 % gennemført', description:'Overblik, incidents og response i XDR/MDE.'},
+    {name:'Defender XDR + Defender for Endpoint', hours:4, completed:1, progressRange:[55,60], status:'Under træning · ca. 55–60 % gennemført', description:'Overblik, incidents og response i XDR/MDE.'},
     {name:'Sentinel + KQL', hours:8, completed:0, status:'Planlagt', priority:true, description:'Sentinel og selvstændig query-skrivning.'},
     {name:'Endpoint Investigation', hours:4, completed:0, status:'Planlagt', description:'Beviser, procesforløb og endpoint-analyse.'},
     {name:'Threat Hunting', hours:3, completed:0, status:'Planlagt', description:'Fra hypotese til søgning og validering.'},
