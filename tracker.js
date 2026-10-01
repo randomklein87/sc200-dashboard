@@ -1,16 +1,18 @@
 // Den fælles, publicerede status. Opdater denne fil efter en undervisningssession.
 window.SC200 = {
-  updated: '2026-09-29',
+  updated: '2026-10-01',
   repository: 'https://github.com/randomklein87/sc200-dashboard',
   baselineHours: 1,
-  next: 'Kompromitteret endpoint · investigation #1',
+  next: 'KQL fra blankt papir · dybere endpoint/process-analyse',
   modules: [
-    {name:'Defender XDR + Defender for Endpoint', hours:4, completed:0, status:'Næste modul', description:'Overblik, incidents og response i XDR/MDE.'},
+    {name:'Defender XDR + Defender for Endpoint', hours:4, completed:0, progressRange:[55,60], status:'Under træning · ca. 55–60 % gennemført', description:'Overblik, incidents og response i XDR/MDE.'},
     {name:'Sentinel + KQL', hours:8, completed:0, status:'Planlagt', priority:true, description:'Sentinel og selvstændig query-skrivning.'},
     {name:'Endpoint Investigation', hours:4, completed:0, status:'Planlagt', description:'Beviser, procesforløb og endpoint-analyse.'},
     {name:'Threat Hunting', hours:3, completed:0, status:'Planlagt', description:'Fra hypotese til søgning og validering.'},
     {name:'Exam Mode', hours:4, completed:0, status:'Planlagt', description:'Scenarier, tidspres og målrettet repetition.'}
   ],
+  learned: ['Device Timeline', 'Advanced Hunting', 'Live Response', 'AIR', 'Investigation Package', 'Incident/Alert/Evidence-modellen'],
+  training: ['KQL fra blankt papir', 'Dybere endpoint/process-analyse'],
   baseline: [
     {name:'Incident response',level:'Stærk',tone:'strong'},
     {name:'Identity response',level:'Stærk',tone:'strong'},
